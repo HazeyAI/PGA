@@ -127,6 +127,16 @@ Based on Northwestern Sports Analytics research comparing winners to field avera
 - The par 5s (2nd, 8th, 13th, 15th) are where champions separate from the field
 - Hole 15 provides the greatest advantage to long hitters
 - Hole 13 is the easiest hole on the course (4.775 avg) — eagles and birdies are expected
+- Rory McIlroy's 3 eagles in 2025 tied the record for most eagles by a champion
+
+#### Par 5 Hole-by-Hole Breakdown
+
+| Hole | Name | Yards | Avg Score | Character |
+|------|------|-------|-----------|-----------|
+| 2 | Pink Dogwood | 575 | 4.46 | Easiest par 5 — most eagles & birdies |
+| 8 | Yellow Jasmine | 570 | 4.68 | Hardest par 5 — fewest eagles |
+| 13 | Azalea | 510 | 4.60 | Reachable in two, but water guards the green |
+| 15 | Firethorn | 530 | 4.61 | Eagle opportunity — biggest advantage for long hitters |
 
 ### Critical Finding #4: Putting is Overrated at Augusta
 
@@ -187,9 +197,32 @@ Based on Northwestern Sports Analytics research comparing winners to field avera
 
 ### Augusta Experience Matters
 
-- Only **3 players in history** have won the Masters on their first appearance: Horton Smith (1934), Gene Sarazen (1935), and Fuzzy Zoeller (1979)
+- Only **3 players in history** have won the Masters on their first appearance: Horton Smith (1934), Gene Sarazen (1935), and Fuzzy Zoeller (1979) — no rookie has won in 47 years
 - 48% of previous year's top-10 finishers finish top 10 again the following year
 - The course rewards **institutional knowledge** — knowing pin positions, green speeds, slopes, and wind patterns from prior years
+- **Sergio Garcia** holds the record for most appearances before winning: **19 starts** before his 2017 victory
+- Ludvig Aberg's runner-up finish in 2024 as a rookie was the most spectacular debut in recent history — but he still didn't win
+
+### Detailed Experience Thresholds (Last 12 Winners)
+
+| Filter | Threshold | Hit Rate |
+|--------|-----------|----------|
+| At least 1 prior Masters start | Yes | 12/12 (100%) |
+| 2+ prior Masters starts | Yes | 10/12 (83%) |
+| Previous Masters top-5 | Yes | 9/12 (75%) |
+| Previous Masters top-10 | Yes | 9/12 (75%) |
+| Previously finished 22nd or better | Yes | 11/12 (92%) |
+| Top 38 in most recent prior Masters | Yes | 10/12 (83%) |
+
+### Round-by-Round Positioning — Winners Contend from the Start
+
+| Position | Threshold | Hit Rate |
+|----------|-----------|----------|
+| After Round 1 | Top 11 | **11/12 (92%)** |
+| After Round 2 | Top 8 | **12/12 (100%)** |
+| After Round 3 | Top 3 | **11/12 (92%)** |
+
+This is one of the strongest patterns: **the Masters winner is almost always near the lead from Day 1**. Wire-to-wire winners are rare (only 5 in history), but the winner virtually never comes from outside the top 10 at the halfway mark.
 
 ### Correlated Courses
 
@@ -281,8 +314,9 @@ Based on 50 years of data, the statistically ideal Masters contender profile:
 ### OVERRATED FACTORS
 - **Driving accuracy** — actually below field average for winners
 - **Pure putting prowess** — none of last 5 winners ranked top 10 in SG: Putting
-- **Being the betting favorite** — the Masters is inherently unpredictable (only 14% of variance explained by top predictive models)
+- **Being the pre-tournament betting favorite** — only 2 betting favorites/co-favorites have won since Tiger in 2005. Most winners come from the +1,000 to +3,000 odds range (second-tier favorites). Only 14% of variance is explained by top predictive models.
 - **Youth** — unlike other sports, experience at Augusta trumps athleticism
+- **Fairway accuracy** — since 2010, top-10 finishers averaged 9.6 fairways/round vs 9.5 for everyone else — essentially no difference
 
 ---
 
@@ -304,7 +338,28 @@ Based on 50 years of data, the statistically ideal Masters contender profile:
 | Oldest winner | Jack Nicklaus, 46 (1986) |
 | Youngest winner | Tiger Woods, 21 (1997) |
 | Largest margin | 12 strokes (Tiger Woods, 1997) |
-| Wire-to-wire winners | Spieth (2015), Immelman (partial, 2008) |
+| Wire-to-wire winners | Floyd (1976), Spieth (2015) |
+| Typical winner composition | 1 eagle, 17 birdies, 46 pars, 9 bogeys, <1 double bogey |
+| Back nine record (single round) | 29 (Calcavecchia 1992, Toms 1998) |
+| Lowest final round by winner | 64 (-8) |
+
+---
+
+## PART 9: COMPREHENSIVE PREDICTIVE FILTER TABLE
+
+Applying all filters sequentially to narrow the field from ~90 players to a likely winner:
+
+| Step | Filter | Threshold | Eliminates | Hit Rate |
+|------|--------|-----------|------------|----------|
+| 1 | World Ranking | Top 25 | ~65 players | 12/12 (100%) |
+| 2 | Career Wins | 4+ | ~5 more | 12/12 (100%) |
+| 3 | SG: T2G (4 prior events) | 18+ strokes gained | ~5 more | 13/13 (100%) |
+| 4 | Previous Masters top-10 | At least once | ~3 more | 9/12 (75%) |
+| 5 | Season win before Masters | At least 1 | ~3 more | 9/12 (75%) |
+| 6 | Age | 27+ | ~1 more | 10/12 (83%) |
+| 7 | In top 8 after Round 2 | Yes | Watch live | 12/12 (100%) |
+
+**Bottom line:** If you filter the Masters field by top-25 world ranking + 4+ career wins + strong recent SG: T2G + prior Augusta experience, you're left with roughly **8-12 realistic contenders** each year. The winner has come from this group every single time in the modern era.
 
 ---
 
@@ -320,3 +375,9 @@ Sources:
 - [PGA Golf Bets - US Masters Tips and Statistics](https://pgagolfbets.com/us-masters-betting-tips/)
 - [FiveThirtyEight - Driving Distance at Augusta](https://fivethirtyeight.com/features/at-augusta-hitting-short-drives-and-losing-is-a-tradition-unlike-any-other/)
 - [Golf Digest - Do You Need to Putt Well at Augusta?](https://www.golfdigest.com/story/masters-2026-do-you-really-have-to-putt-well-to-win-at-augusta-national)
+- [PGA Tour - Step-by-Step Guide to Identifying the Masters Winner](https://www.pgatour.com/article/news/betting-dfs/2025/04/08/step-by-step-guide-to-identifying-the-masters-winner)
+- [Golf Compendium - Masters Appearances Before Winning](https://www.golfcompendium.com/2026/04/masters-appearances-most-before-winning.html)
+- [Splash Sports - Augusta by the Numbers](https://webflowio.splashsports.com/blog/augusta-by-the-numbers-the-stats-that-matter-most-at-the-masters)
+- [PGA Golf Bets - US Masters Tips: Key Stats and Trends](https://pgagolfbets.com/us-masters-betting-tips/)
+- [Malter Analytics - Traits of a Successful Masters Golfer](https://malteranalytics.github.io/masters/)
+- [Data Golf - Masters Historical Tournament Stats](https://datagolf.com/historical-tournament-stats)
