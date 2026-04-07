@@ -363,6 +363,149 @@ Applying all filters sequentially to narrow the field from ~90 players to a like
 
 ---
 
+## PART 10: WEATHER-PERFORMANCE CORRELATION ANALYSIS
+
+### The Science: Weather Explains ~50% of Scoring Variance
+
+A peer-reviewed study (PMC, 2023) analyzing 40 years of Masters data found that **nearly 50% of variance in mean golf scores can be attributed to weather changes**. This is a massive finding — weather is the single largest external factor in Masters outcomes.
+
+#### Key Weather Variables and Their Statistical Impact
+
+| Variable | Correlation with Scoring | Effect |
+|----------|------------------------|--------|
+| **Temperature (wet-bulb)** | -0.56 (strong negative) | Warmer = lower scores. Each degree warmer reduces mean score. |
+| **Wind Speed** | +0.52 (strong positive) | Windier = higher scores. Wind is the #1 scoring disruptor. |
+| **Humidity** | -0.29 (moderate negative) | Higher humidity = slightly lower scores (ball carries better). |
+| **Precipitation (concurrent)** | Not statistically significant | Rain during play doesn't reliably predict scoring. |
+| **Antecedent rainfall (5-day)** | -0.28 (R3-4 only) | Prior rain softens greens, lowering weekend scores. |
+| **Weather delays** | +1.1 shots (Round 1) | Delays raise R1 scores by 1.1 strokes on average (p=0.027). |
+
+#### Regression Models (from peer-reviewed research)
+
+**Rounds 1-2 scoring equation:**
+```
+Mean score = 75.249 - 0.150(wet-bulb temp) + 0.089(wind speed) + 0.606(precipitation)
+```
+- Wet-bulb temperature alone explains **33.8%** of scoring variance in early rounds
+- Model R² = 0.462 (46.2% of variance explained)
+
+**Rounds 3-4 scoring equation:**
+```
+Mean score = 73.544 + 0.072(zonal wind) - 0.087(wet-bulb temp) - 0.288(log antecedent rainfall) + 0.071(wind speed)
+```
+- Zonal (east-west) wind speed explains **28.8%** of weekend scoring variance
+- Model R² = 0.448 (44.8% of variance explained)
+
+---
+
+### Historical Weather-Scoring Benchmarks
+
+| Year | Conditions | Winning Score | Impact |
+|------|-----------|---------------|--------|
+| **2020** | Warm, calm, November (soft) | **-20 (268)** | Record low score. Benign conditions = scoring feast. |
+| **2015** | Warm, calm, dry | **-18 (270)** | Spieth's dominant wire-to-wire. Perfect conditions. |
+| **1997** | Warm, calm | **-18 (270)** | Tiger's record-setting win. Soft, receptive course. |
+| **2007** | Cold (avg 48°F), 33mph gusts | **+1 (289)** | Highest winning score in decades. Weather was the story. |
+| **2016** | 40+ mph wind gusts | **-5 (283)** | High scores, Spieth's collapse at 12 in swirling wind. |
+| **2024** | 40+ mph gusts Thu-Fri | **-11 (277)** | Wind rounds separated contenders from field early. |
+| **2023** | 2.85" rain, 49°F Sat high | **-12 (276)** | 3rd-wettest Masters ever. Soft course favored aggressive iron play. |
+
+**Clear pattern:** Calm + warm = low scores and dominant performances by elite players. Wind + cold = chaos, upsets, and higher scores.
+
+---
+
+### How Different Conditions Favor Different Player Types
+
+#### Calm, Warm, Dry Conditions (Firm & Fast)
+**Who benefits:** Elite ball-strikers and long hitters
+- Firm fairways add rollout = extra driving distance for bombers
+- Faster greens reward precision approach play and Augusta experience
+- Par 5s become more reachable = massive advantage for long hitters
+- Scoring separates the elite from the field — **favorites tend to win**
+- **Historical winners in calm conditions:** Tiger Woods (1997, 2001, 2005), DJ (2020), Spieth (2015), Scheffler (2022, 2024)
+
+#### Calm, Warm, Soft Conditions (After Rain)
+**Who benefits:** High-spin iron players and aggressive approach artists
+- Soft greens are more receptive = players can attack pins directly
+- High spin rates hold greens better = elite iron players gain edge
+- Course plays longer (less rollout) but greens are easier to hold
+- Scoring goes low across the field, but approach play still separates
+- **Historical winners in soft conditions:** Rahm (2023), Schwartzel (2011)
+
+#### Windy Conditions (15+ mph sustained)
+**Who benefits:** Low ball-flight players, experienced Augusta veterans
+- Wind destroys scoring averages at holes 11, 12, and 16 (exposed holes)
+- The 12th hole becomes a minefield — swirling wind in the bowl is unpredictable
+- Players who can flight the ball low and manage trajectory gain huge advantage
+- Experience matters more — knowing how wind affects each hole is critical
+- **Upsets more likely** — wind is the great equalizer
+- **Historical winners in wind:** Willett (2016), Zach Johnson (2007)
+
+#### Cold Conditions (<60°F)
+**Who benefits:** Longer hitters (even more than usual)
+- Cold air reduces ball carry for everyone, but longer hitters lose proportionally less
+- Par 5s become harder to reach in two = distance advantage amplified
+- Higher scoring = more separation between elite and field
+- Cold also affects mental approach — patience and experience rewarded
+- **Historical example:** Zach Johnson's +1 (289) in frigid 2007
+
+---
+
+### 2026 Masters Weather Forecast & Implications
+
+#### Forecast (April 9-12, 2026)
+
+| Day | Temp | Wind | Rain % | Conditions |
+|-----|------|------|--------|------------|
+| **Thu R1** | 73°F | ENE 8 mph | 16% | Partly cloudy, mild |
+| **Fri R2** | 76-79°F | ENE 9 mph | 22% | Clearing, pleasant |
+| **Sat R3** | 79-83°F | E 8 mph | 14% | Sunny, warm |
+| **Sun R4** | 80-85°F | NE 8 mph | 11% | Sunny, warm |
+
+#### What This Means for Scoring
+
+**This is a LOW-SCORING setup.** Applying our regression model:
+- Warm temps (73-85°F) = strong negative correlation with scoring (lower scores)
+- Minimal wind (8-9 mph) = negligible scoring penalty
+- Low rain probability = course firms up through the week
+- Warming trend Thu→Sun = progressively better scoring conditions
+
+**Expected winning score range: -14 to -20** (historically, calm/warm Masters produce -14 or lower winning scores)
+
+#### Which Player Types Are Favored in 2026 Conditions
+
+**STRONGLY FAVORED:**
+1. **Elite ball-strikers with distance** — Firm fairways + calm = maximum driving distance advantage. The par 5s will be scoring holes all week.
+2. **Precision iron players** — As the course firms up Sat-Sun, approach play becomes even more critical. Greens will be fast and unreceptive by Sunday.
+3. **Augusta veterans** — Knowing how to manage fast, firm greens is essential when the course is baked out by Sunday.
+
+**NEUTRAL:**
+4. **High-spin approach players** — Without rain to soften greens, high-spin helps less. Players need to land short and use slopes.
+5. **Scrambling specialists** — Calm conditions mean fewer recovery scenarios, reducing the scrambling advantage.
+
+**DISADVANTAGED:**
+6. **Short hitters who rely on accuracy** — Without wind to equalize, length advantage at par 5s goes unchecked.
+7. **Players who thrive in chaos** — Danny Willett and Zach Johnson types who benefit from difficult conditions won't get help from weather.
+
+#### Impact on Our Fantasy Picks
+
+| Pick | Weather Fit | Reasoning |
+|------|------------|-----------|
+| **Scheffler** | IDEAL | Elite ball-striker who thrives in benign conditions. Won in 2022 (+calm) and 2024 (+wind). Weather-proof. |
+| **Schauffele** | IDEAL | Precision iron play + consistent Augusta performer. Calm conditions let his approach game shine. |
+| **Gotterup** | IDEAL | 319.9-yard driving average benefits maximally from firm, calm conditions. Par 5 eagle machine. |
+| **Aberg** | IDEAL | Elite length + iron play. Calm conditions reduce the rookie penalty (less course knowledge needed when conditions are benign). |
+| **DeChambeau** | STRONGLY FAVORED | Massive length + firm fairways = extra distance. His par-5 advantage is amplified. Low wind reduces his approach volatility. Calm conditions may fix his Sunday collapse pattern. |
+| **Rahm** | IDEAL | Complete game thrives in any conditions, but calm weather lets his ball-striking dominate. Won in 2023 in soft/cold; will be even better in warm/calm. |
+| **Cantlay** | GOOD | Approach play rewarded. But lacks the length to fully exploit calm par-5 conditions. |
+| **Hojgaard** | NEUTRAL | Solid player, but doesn't have a specific weather edge. |
+| **Conners** | GOOD | Elite iron play shines in conditions that reward approach shots. |
+| **Sungjae Im** | GOOD | Consistent ball-striker who benefits from benign conditions. |
+
+**Bottom line for 2026:** The calm, warm forecast is a **massive boost to our team**. Our picks are loaded with elite ball-strikers and long hitters — exactly the profiles that dominate in benign conditions. The weather eliminates the upset factor that could help underdogs. Expect a low-scoring tournament won by someone from the top of the betting board.
+
+---
+
 *Analysis compiled from PGA Tour statistics, Northwestern Sports Analytics Group research, Opta/The Analyst data, Golf Digest analysis, and historical Masters Tournament records.*
 
 Sources:
@@ -381,3 +524,9 @@ Sources:
 - [PGA Golf Bets - US Masters Tips: Key Stats and Trends](https://pgagolfbets.com/us-masters-betting-tips/)
 - [Malter Analytics - Traits of a Successful Masters Golfer](https://malteranalytics.github.io/masters/)
 - [Data Golf - Masters Historical Tournament Stats](https://datagolf.com/historical-tournament-stats)
+- [PMC - Effect of Weather Conditions on Scores at the Masters](https://pmc.ncbi.nlm.nih.gov/articles/PMC10589173/)
+- [Splash Sports - Weather and Wind at Augusta](https://webflowio.splashsports.com/blog/weather-and-wind-at-augusta-how-conditions-affect-your-masters-fantasy-picks)
+- [WRDW - Rain, Wind, and Green Jacket Glory: How Weather Has Impacted Masters History](https://www.wrdw.com/2026/04/03/rain-wind-green-jacket-glory-how-weather-has-impacted-masters-history/)
+- [Yahoo Sports - How Weather Affects 2026 Masters Odds](https://sports.yahoo.com/articles/weather-affects-2026-masters-odds-200500624.html)
+- [PGA Tour - 2026 Masters Weather Outlook](https://www.pgatour.com/article/news/latest/2026/04/05/weather-outlook-2026-masters-week-augusta-national-golf-club-forecast-radar)
+- [Covers - 2026 Masters Weather Forecast](https://www.covers.com/golf/masters/weather-2026)
