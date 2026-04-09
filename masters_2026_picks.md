@@ -118,3 +118,68 @@ GROUP 10: ✅ Sungjae Im (WRITE-IN)
 ```
 
 **The edge:** Jon Rahm in Group 6 is the biggest steal on the board. He's the second-favorite to win the entire tournament and he's grouped with Keegan Bradley, Maverick McNealy, Si Woo Kim, and Ryan Gerard. Everyone in your pool should take him, but the key differentiator will be Groups 3, 5, 7, 8, 9, and 10 — that's where your team construction wins or loses.
+
+---
+
+## PRE-TOURNAMENT UPDATE — April 9, 2026 (Round 1 Day)
+
+### Status Check: All 10 Picks CONFIRMED Playing
+
+| Pick | Status | Concern Level | Notes |
+|------|--------|---------------|-------|
+| Scheffler | PLAYING | MODERATE | Form dip: ranks 80th in SG:Approach, last 3 starts T-22, T-24, T-12. Houston WD was for birth of 2nd child. Odds drifted +375→+550. But 2x Augusta champion — course pedigree overrides form. |
+| Schauffele | PLAYING | NONE | Healthy, sharp. +1500. |
+| Gotterup | PLAYING | LOW | Practiced with Justin Rose (smart). Learning course intently. Paired with Rahm + Aberg R1 — elite group. |
+| Aberg | PLAYING | NONE | Healthy, 3 straight top-5s intact. +1700. |
+| DeChambeau | PLAYING | NONE | Best form in the field. +1000-1050, trending shorter. |
+| Rahm | PLAYING | NONE | Won 3rd LIV title in Hong Kong. +900. Outstanding form. |
+| Cantlay | PLAYING | NONE | Healthy. Paired with Hovland and Noren. |
+| Hojgaard | PLAYING | LOW | Houston runner-up form. 3rd Masters start. |
+| Conners | PLAYING | NONE | Healthy. Paired with Hall and Brennan at 12:44 PM. |
+| Sungjae Im | PLAYING | NONE | Healthy. Tees off 11:03 AM with Stevens. |
+
+### Key Odds Movement Since Original Analysis
+
+| Player | Original Odds | Current Odds | Direction |
+|--------|--------------|--------------|-----------|
+| Scheffler | +500 | +550 | DRIFTING (form concerns) |
+| Rahm | +950 | +900 | SHORTENING (hot form) |
+| DeChambeau | +1000 | +1050 | STABLE |
+| McIlroy | +1100 | +1300 | DRIFTING (back injury scare) |
+| Schauffele | +1600 | +1500 | SHORTENING (slightly) |
+| Aberg | +1500 | +1700 | SLIGHT DRIFT |
+
+### Important Updates on Non-Picked Players
+
+- **Collin Morikawa** (Group 2) — Playing but dealing with back injury. WD from Texas Open, "taking it day by day." Confirms Schauffele was the right Group 2 pick.
+- **Rory McIlroy** (Group 1) — Had back injury earlier but ESPN reports "fully recovered, no limitations." Looked great in practice. Still +1300. Our Scheffler pick stands.
+- **Tiger Woods** — NOT playing (car accident + DUI). Not relevant to our picks.
+- **Phil Mickelson** — NOT playing (personal family health matter). Not relevant.
+
+### Round 1 Tee Times for Our Picks
+
+**MORNING WAVE (Thu):**
+| Time | Player | Playing With |
+|------|--------|-------------|
+| 10:07 AM | DeChambeau | Fitzpatrick, Schauffele |
+| 10:43 AM | Cantlay | Hovland, Noren |
+| 11:03 AM | Sungjae Im | Stevens |
+
+**AFTERNOON WAVE (Thu):**
+| Time | Player | Playing With |
+|------|--------|-------------|
+| 12:44 PM | Conners | Hall, Brennan |
+| 1:08 PM | Rahm | **Gotterup, Aberg** |
+| 1:44 PM | Scheffler | MacIntyre, Woodland |
+
+**Notable:** Rahm, Gotterup, and Aberg are all paired together in R1. Three of our picks in one group!
+
+### Weather Recheck (April 9)
+
+Thu R1: 73°F, ENE 8 mph, 16% rain chance. **Perfect scoring conditions confirmed.** No changes to weather analysis.
+
+### VERDICT: NO CHANGES TO THE TEAM
+
+All 10 picks are healthy and playing. The only watch item is Scheffler's recent form dip (80th in SG:Approach), but his 2x championship Augusta pedigree and world #1 status make him still the best pick in Group 1. Rahm's odds shortening to +900 validates him as the biggest steal on the board.
+
+**Final team stands as originally selected. Lock it in.**
